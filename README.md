@@ -12,6 +12,20 @@ This requires mongoDB and can be setup here [MongoDB](https://www.mongodb.com/)
 
 ### `yarn start`
 
+Starts Node Server
+
 ### `yarn server`
 
 Runs local server using Nodemon
+
+### `yarn client`
+
+Runs Client Application
+
+### `yarn clientinstall`
+
+Installs client dependencies, required for first time use
+
+### `yarn dev`
+
+Concurrently runs backend and frontend applications locally
