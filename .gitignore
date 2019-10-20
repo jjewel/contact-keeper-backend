@@ -2,9 +2,11 @@
 
 # project specific
 /config/default.json
+/client/build
+
 
 # dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.js
 
