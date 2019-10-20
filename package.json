@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "yarn start --cwd /client",
-    "clientinstall": "yarn --cwd /client",
+    "client": "yarn --cwd ./client/ start",
+    "clientinstall": "yarn --cwd ./client/",
     "dev": "concurrently \"yarn server\" \"yarn client\""
   },
   "dependencies": {
