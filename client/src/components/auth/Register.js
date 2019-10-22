@@ -18,7 +18,7 @@ const Register = () => {
 
   const onSubmit = e => {
     e.preventDefault();
-    if (name == '' || email === '' || password === '' || password2 === '') {
+    if (name === '' || email === '' || password === '' || password2 === '') {
       setAlert('Please fill in details', 'danger');
     } else if (password !== password2) {
       setAlert('Passwords do not match', 'danger');

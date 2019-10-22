@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import ContactContext from '../../context/contact/contactContext';
 import PropTypes from 'prop-types';
-import { CLEAR_CURRENT } from '../../context/types';
 
 const ContactItem = ({ contact }) => {
   const { deleteContact, setCurrent, clearCurrent } = useContext(
