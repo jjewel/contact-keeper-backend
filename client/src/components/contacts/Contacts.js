@@ -8,6 +8,11 @@ const Contacts = () => {
   if (contacts.length === 0) {
     return <h4>No Contacts...</h4>;
   }
+
+  if (filtered !== null && filtered.length === 0) {
+    return <h4>No Results Found...</h4>;
+  }
+
   return (
     <Fragment>
       {filtered
